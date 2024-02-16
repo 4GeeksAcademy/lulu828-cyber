@@ -2,8 +2,10 @@ let pronoun = ["the", "our"];
 let adj = ["great", "big"];
 let noun = ["jogger", "racoon"];
 
-//cada uno tiene que tener una posicion.
-// pronoun 2/2/2/2--4/4/4/4--1/1/1/1
+//La funcion hace que el codigo se pueda generar multiple times not just onces.
+
+
+
 function generadorDominios(p, ad, n) {
   for (let a = 0; a < p.length; a++) {
     for (let b = 0; b < ad.length; b++)
